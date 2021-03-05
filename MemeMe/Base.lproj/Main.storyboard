@@ -32,7 +32,7 @@
                                                 <constraint firstAttribute="height" priority="999" constant="80" id="YN8-bx-eZn"/>
                                             </constraints>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jJl-q4-IS9">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title could be very long xxxxx" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="jJl-q4-IS9">
                                             <rect key="frame" x="187.5" y="0.0" width="171.5" height="80.5"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
@@ -291,7 +291,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="3" width="1138" height="474"/>
+        <image name="3" width="564" height="887"/>
         <image name="camera.fill" catalog="system" width="128" height="94"/>
         <image name="circle.grid.3x3.fill" catalog="system" width="128" height="112"/>
         <image name="list.dash" catalog="system" width="128" height="85"/>

@@ -10,14 +10,13 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-    // TODO: revert to [Meme](), remove assets
-    var storedMemes = [
-        Meme(topText: "top", bottomText: "bottom", originalImage: UIImage(named: "1.png")!, memedImage: UIImage(named: "1.png")!),
-        Meme(topText: "top", bottomText: "2", originalImage: UIImage(named: "2.png")!, memedImage: UIImage(named: "2.png")!),
-        Meme(topText: "top", bottomText: "3", originalImage: UIImage(named: "3.png")!, memedImage: UIImage(named: "3.png")!),
-        Meme(topText: "top", bottomText: "4", originalImage: UIImage(named: "2.png")!, memedImage: UIImage(named: "2.png")!),
-        Meme(topText: "top", bottomText: "5", originalImage: UIImage(named: "3.png")!, memedImage: UIImage(named: "3.png")!)
-    ]
+    var storedMemes = [Meme]()
+    // this can be commented out to have some initial memes provided
+    /*[
+        Meme(topText: "THAT SMELL", bottomText: "OF WEEKEND", originalImage: UIImage(named: "1.png")!, memedImage: UIImage(named: "1.png")!),
+        Meme(topText: "SOME HEADER", bottomText: "SOME FOOTER", originalImage: UIImage(named: "2.png")!, memedImage: UIImage(named: "2.png")!),
+        Meme(topText: "TOP", bottomText: "HEADER", originalImage: UIImage(named: "3.png")!, memedImage: UIImage(named: "3.png")!)
+    ]*/
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
