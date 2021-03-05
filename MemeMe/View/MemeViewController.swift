@@ -14,6 +14,12 @@ class MemeViewController : UIViewController {
     
     var meme: UIImage?
     
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+        // hide Tab Bar
+        hidesBottomBarWhenPushed = true
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         

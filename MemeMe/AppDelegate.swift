@@ -14,9 +14,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var storedMemes = [
         Meme(topText: "top", bottomText: "bottom", originalImage: UIImage(named: "1.png")!, memedImage: UIImage(named: "1.png")!),
         Meme(topText: "top", bottomText: "2", originalImage: UIImage(named: "2.png")!, memedImage: UIImage(named: "2.png")!),
-        Meme(topText: "top", bottomText: "3", originalImage: UIImage(named: "1.png")!, memedImage: UIImage(named: "1.png")!),
+        Meme(topText: "top", bottomText: "3", originalImage: UIImage(named: "3.png")!, memedImage: UIImage(named: "3.png")!),
         Meme(topText: "top", bottomText: "4", originalImage: UIImage(named: "2.png")!, memedImage: UIImage(named: "2.png")!),
-        Meme(topText: "top", bottomText: "5", originalImage: UIImage(named: "2.png")!, memedImage: UIImage(named: "2.png")!)
+        Meme(topText: "top", bottomText: "5", originalImage: UIImage(named: "3.png")!, memedImage: UIImage(named: "3.png")!)
     ]
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {

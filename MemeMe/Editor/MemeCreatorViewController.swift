@@ -40,10 +40,12 @@ class MemeCreatorViewController: UIViewController, UINavigationControllerDelegat
         NSAttributedString.Key.font: UIFont(name: "HelveticaNeue-CondensedBlack", size: 40)!,
         NSAttributedString.Key.strokeWidth: -2.0
     ]
-    
-    //MARK: Store
-    // This store should be replaced by something more persistant
-    private var createdMemes = [Meme]()
+         
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+        // hide Tab Bar
+        hidesBottomBarWhenPushed = true
+    }
     
     //MARK: Lifecycle related
     override func viewDidLoad() {
